@@ -28,7 +28,7 @@ _If you have not done so already, you will need to install git and composer glob
 ### Legal
 
 
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_Michael Rapp_**
 
 This software is licensed under the MIT license.
 
