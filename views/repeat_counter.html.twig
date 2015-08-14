@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <title>Repeat Counter</title>
+</head>
+<body>
+    <div class='container'>
+        <h1>Repeat Counter</h1>
+        <p class="lead">Enter the word and a string of words to see how many times the word appears in the string!</p>
+        <form action='/count'>
+            <div class='form-group'>
+                <label for='check_word'>Enter a Word:</label>
+                <input id='check_word' name='check_word' class='form-control' type='text'>
+                <label for='string'>Enter a String of words</label>
+                <input id='string' name='string' class='form-control' type='text'>
+            </div>
+            <button type='submit' class='btn-success'>Go!</button>
+        </form>
+    </div>
+</body>
+</html>
