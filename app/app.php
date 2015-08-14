@@ -12,9 +12,12 @@
         return $app['twig']->render('check.html.twig');
     });
 
-    $app->get("/anagrams", function() use($app)
+    $app->get("/count", function() use($app)
     {
         $my_RepeatCounter = new RepeatCounter;
         $count = $my_RepeatCounter->countRepeats($_GET['check_word'], $_GET['string']);
         return $app['twig']->render('repeats.html.twig', array('count' => $count));
     });
+
+    return $app;
+?>
